@@ -104,7 +104,7 @@ namespace RandomNumberGenerator {
 			this->label3->Size = System::Drawing::Size(35, 13);
 			this->label3->TabIndex = 2;
 			this->label3->Text = L"label3";
-			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click_1);
+			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
 			// label4
 			// 
@@ -237,7 +237,7 @@ private: System::Void label1_Click(System::Object^  sender, System::EventArgs^  
 private: System::Void label2_Click(System::Object^  sender, System::EventArgs^  e) {
 			 this->label2->Text = "0";
 		 }
-private: System::Void label3_Click_1(System::Object^  sender, System::EventArgs^  e) {
+private: System::Void label3_Click(System::Object^  sender, System::EventArgs^  e) {
 			 this->label3->Text = "0";
 		 }
 private: System::Void label4_Click(System::Object^  sender, System::EventArgs^  e) {
